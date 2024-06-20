@@ -1,0 +1,137 @@
+/* #ffc854 */
+body {
+  margin: 0;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  color: #212121;
+}
+header {
+    position: fixed; /* ヘッダーを固定する */
+top: 0; /* 上部から配置の基準位置を決める */
+left: 0;
+z-index: 999;
+  display: flex;
+  width: 100%;
+  background: #ffc854;
+}
+div.snsLinks {
+  display: flex;
+  margin: 18px 5px 0 auto;
+  height: 2.8rem;
+}
+p.snsLinks {
+  font-size: x-large;
+  padding: 0;
+  margin-top: 19px;
+  line-height: 0;
+}
+a.snsLinks {
+  margin: 0 5px 0 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  border: #ffffff solid 4px;
+  border-radius: 1.5rem;
+  padding: 0 25px 0 25px;
+  background-color: #ffc854;
+}
+a.snsLinks:hover {
+  background-color: #ffdc96;
+  color: #ffffff;
+}
+a.snsLinks:active {
+  background-color: #cc8b00;
+}
+#logo {
+  height: 64px;
+  margin: 5px 5px 5px 5px;
+  vertical-align: top;
+  border: 4px solid #ffffff;
+  border-radius: 64px;
+}
+main{
+    padding-top: 85px;
+    animation: fadeIn 2.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+    text-align: center;
+}
+#banner{
+  width: 100%;
+  vertical-align: top;
+}
+#lastUpdated{
+  color: #212121;
+  margin: 0;
+}
+.genre{
+  border: #212121 solid 2px;
+  border-radius: 1rem;
+  margin:0 auto ;
+  margin-bottom: 1rem;
+  width: 22rem;
+  padding: 1rem;
+}
+.info{
+  margin: 1rem;
+  text-align: left;
+}
+div.info{
+  background-color: #ebebeb;
+  padding: 1rem 0 1rem 0;
+  border-radius: 0.5rem;
+  text-align: center;
+  list-style: none;
+}
+.red{
+  color: red;
+}
+.bold{
+  font-weight: bold;
+}
+summary:hover{
+  text-decoration: underline;
+}
+
+div.aLive{
+  background-color: #ebebeb;
+  padding: 0.4rem 0 0.4rem 0;
+  border-radius: 0.5rem;
+  display: flex;
+}
+.liveThumbnail{
+  width: 38%;
+  border-radius: 5px;
+  vertical-align: top;
+  margin:0 0 0 2% ;
+}
+.liveData{
+  width: 56%;
+  margin: 0 2% 0 2%;
+  overflow-wrap:break-all;
+}
+
+footer{
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #ebebeb;
+  text-align: center;
+}
+#aFoot{
+  color: #212121;
+  text-decoration: none;
+}
+#aFoot:hover{
+  color: #999999;
+}
+#aFoot:active{
+  color: #ffffff;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
